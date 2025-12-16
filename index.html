@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добрый дом - Приют для животных</title>
+    <meta name="description" content="Приют для бездомных животных в Москве. Берем под опеку собак, кошек, кроликов и других питомцев. Помощь животным, волонтерство, благотворительность.">
+    <meta name="keywords" content="приют для животных, бездомные животные, взять собаку, взять кошку, помощь животным, благотворительность приют, волонтерство, опека животных">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/48/000000/dog.png">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка с логотипом -->
+    <header class="header">
+        <div class="header-bg"></div>
+        <div class="logo-container">
+            <a href="#" id="logo-link" class="logo">
+                <h1><i class="fas fa-paw"></i> Добрый дом</h1>
+                <p>Приют для животных в Москве</p>
+            </a>
+        </div>
+    </header>
+
+    <!-- Навигация (3 кнопки) -->
+    <nav class="nav-container">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#" class="nav-link" id="animals-link">
+                    <i class="fas fa-dog"></i> Животные
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link" id="charity-link">
+                    <i class="fas fa-hand-holding-heart"></i> Благотворительность
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link" id="staff-link">
+                    <i class="fas fa-users"></i> Персонал
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Главная страница -->
+    <main class="main-content">
+        <div id="home-page" class="page-content active fade-in">
+            <!-- Первое мероприятие -->
+            <section class="section">
+                <div class="container">
+                    <div class="event">
+                        <div class="event-image">
+                            <img src="https://images.unsplash.com/photo-1560743641-3914f2c45636?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1466&q=80" alt="Выставка животных">
+                        </div>
+                        <div class="event-info">
+                            <h2 class="event-title">Выставка "День открытых дверей"</h2>
+                            <span class="event-date"><i class="far fa-calendar-alt"></i> 15 мая 2023 г.</span>
+                            <p class="event-description">Ежегодная выставка животных из нашего приюта, где каждый желающий может познакомиться с нашими подопечными, пообщаться с волонтерами и, возможно, найти себе верного друга. В рамках выставки проводятся конкурсы, мастер-классы по уходу за животными и сбор пожертвований.</p>
+                            <p class="event-description">Мы ждем всех, кто неравнодушен к судьбе бездомных животных и хочет поддержать наш приют.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Цитата -->
+            <section class="quote-section">
+                <div class="container">
+                    <div class="quote-container">
+                        <blockquote class="quote">
+                            "Великодушие по отношению к животным делает нас более человечными, а их преданность и благодарность наполняют наши сердца теплом."
+                        </blockquote>
+                        <p class="quote-author">— Изречение волонтеров приюта "Добрый дом"</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Второе мероприятие -->
+            <section class="section">
+                <div class="container">
+                    <div class="event">
+                        <div class="event-image">
+                            <img src="https://images.unsplash.com/photo-1554456854-55a089fd4cb2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Благотворительный забег">
+                        </div>
+                        <div class="event-info">
+                            <h2 class="event-title">Благотворительный забег "Спорт во благо"</h2>
+                            <span class="event-date"><i class="far fa-calendar-alt"></i> 10 июня 2023 г.</span>
+                            <p class="event-description">Ежегодный благотворительный забег, в котором могут принять участие все желающие вместе со своими питомцами. Цель забега - привлечь внимание к проблеме бездомных животных и собрать средства на их содержание и лечение.</p>
+                            <p class="event-description">Дистанции: 3 км, 5 км и 10 км. Для участников с собаками организована отдельная дистанция. Все собранные средства будут направлены на корм, лечение и стерилизацию животных нашего приюта.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Страница животных -->
+        <div id="animals-page" class="page-content">
+            <section class="section">
+                <div class="container">
+                    <h2 class="section-title">Наши подопечные</h2>
+                    <div class="animals-grid">
+                        <!-- Животное 1 -->
+                        <div class="animal-card fade-in">
+                            <div class="animal-image">
+                                <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1442&q=80" alt="Собака Рекс">
+                            </div>
+                            <div class="animal-info">
+                                <h3 class="animal-name">Рекс</h3>
+                                <span class="animal-type">Собака</span>
+                                <ul class="animal-details">
+                                    <li><i class="fas fa-dna"></i> <strong>Порода:</strong> Немецкая овчарка</li>
+                                    <li><i class="fas fa-heart"></i> <strong>Характер:</strong> Умный, преданный, активный</li>
+                                    <li><i class="fas fa-calendar-alt"></i> <strong>Возраст:</strong> 3 года</li>
+                                    <li><i class="fas fa-info-circle"></i> <strong>Особенности:</strong> Прошел курс дрессировки, хорошо ладит с детьми</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- Животное 2 -->
+                        <div class="animal-card fade-in">
+                            <div class="animal-image">
+                                <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1435&q=80" alt="Кошка Муся">
+                            </div>
+                            <div class="animal-info">
+                                <h3 class="animal-name">Муся</h3>
+                                <span class="animal-type">Кошка</span>
+                                <ul class="animal-details">
+                                    <li><i class="fas fa-dna"></i> <strong>Порода:</strong> Британская короткошерстная</li>
+                                    <li><i class="fas fa-heart"></i> <strong>Характер:</strong> Спокойная, ласковая, независимая</li>
+                                    <li><i class="fas fa-calendar-alt"></i> <strong>Возраст:</strong> 2 года</li>
+                                    <li><i class="fas fa-info-circle"></i> <strong>Особенности:</strong> Стерилизована, приучена к лотку</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- Животное 3 -->
+                        <div class="animal-card fade-in">
+                            <div class="animal-image">
+                                <img src="https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Собака Барсик">
+                            </div>
+                            <div class="animal-info">
+                                <h3 class="animal-name">Барсик</h3>
+                                <span class="animal-type">Собака</span>
+                                <ul class="animal-details">
+                                    <li><i class="fas fa-dna"></i> <strong>Порода:</strong> Дворняжка</li>
+                                    <li><i class="fas fa-heart"></i> <strong>Характер:</strong> Дружелюбный, игривый, общительный</li>
+                                    <li><i class="fas fa-calendar-alt"></i> <strong>Возраст:</strong> 1.5 года</li>
+                                    <li><i class="fas fa-info-circle"></i> <strong>Особенности:</strong> Вакцинирован, кастрирован</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- Животное 4 -->
+                        <div class="animal-card fade-in">
+                            <div class="animal-image">
+                                <img src="https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Кролик Пушистик">
+                            </div>
+                            <div class="animal-info">
+                                <h3 class="animal-name">Пушистик</h3>
+                                <span class="animal-type">Кролик</span>
+                                <ul class="animal-details">
+                                    <li><i class="fas fa-dna"></i> <strong>Порода:</strong> Карликовый баран</li>
+                                    <li><i class="fas fa-heart"></i> <strong>Характер:</strong> Мирный, любопытный, немного пугливый</li>
+                                    <li><i class="fas fa-calendar-alt"></i> <strong>Возраст:</strong> 8 месяцев</li>
+                                    <li><i class="fas fa-info-circle"></i> <strong>Особенности:</strong> Приучен к лотку, любит свежие овощи</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- Животное 5 -->
+                        <div class="animal-card fade-in">
+                            <div class="animal-image">
+                                <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Кошка Соня">
+                            </div>
+                            <div class="animal-info">
+                                <h3 class="animal-name">Соня</h3>
+                                <span class="animal-type">Кошка</span>
+                                <ul class="animal-details">
+                                    <li><i class="fas fa-dna"></i> <strong>Порода:</strong> Сиамская</li>
+                                    <li><i class="fas fa-heart"></i> <strong>Характер:</strong> Энергичная, разговорчивая, умная</li>
+                                    <li><i class="fas fa-calendar-alt"></i> <strong>Возраст:</strong> 4 года</li>
+                                    <li><i class="fas fa-info-circle"></i> <strong>Особенности:</strong> Стерилизована, нуждается в особом уходе за шерстью</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- Животное 6 -->
+                        <div class="animal-card fade-in">
+                            <div class="animal-image">
+                                <img src="https://images.unsplash.com/photo-1588943211346-0908a1fb0b01?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1435&q=80" alt="Собака Лаки">
+                            </div>
+                            <div class="animal-info">
+                                <h3 class="animal-name">Лаки</h3>
+                                <span class="animal-type">Собака</span>
+                                <ul class="animal-details">
+                                    <li><i class="fas fa-dna"></i> <strong>Порода:</strong> Лабрадор-ретривер</li>
+                                    <li><i class="fas fa-heart"></i> <strong>Характер:</strong> Добродушный, терпеливый, любит воду</li>
+                                    <li><i class="fas fa-calendar-alt"></i> <strong>Возраст:</strong> 5 лет</li>
+                                    <li><i class="fas fa-info-circle"></i> <strong>Особенности:</strong> Прошел курс дрессировки, идеален для семей с детьми</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Страница благотворительности -->
+        <div id="charity-page" class="page-content">
+            <section class="section charity-section">
+                <div class="container">
+                    <div class="charity-bg">
+                        <div class="charity-content">
+                            <h2>Помогите нашим подопечным</h2>
+                            <p>Каждое пожертвование помогает нам содержать животных, лечить их и находить им любящие семьи. Ваша поддержка спасает жизни!</p>
+                            <button class="help-button" id="help-button">Помочь</button>
+                        </div>
+                    </div>
+                    
+                    <div class="charity-info">
+                        <h3>Как вы можете помочь:</h3>
+                        <ul class="animal-details">
+                            <li><i class="fas fa-money-bill-wave"></i> <strong>Финансовая помощь:</strong> Пожертвования на корм, лечение и содержание животных</li>
+                            <li><i class="fas fa-shopping-cart"></i> <strong>Материальная помощь:</strong> Корм, лекарства, игрушки, поводки, миски и другие необходимые вещи</li>
+                            <li><i class="fas fa-hands-helping"></i> <strong>Волонтерство:</strong> Помощь в уходе за животными, выгуле, организации мероприятий</li>
+                            <li><i class="fas fa-home"></i> <strong>Временная передержка:</strong> Взять животное к себе домой на время, пока ему ищут постоянную семью</li>
+                            <li><i class="fas fa-share-alt"></i> <strong>Информационная поддержка:</strong> Распространение информации о наших подопечных в соцсетях</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Страница персонала -->
+        <div id="staff-page" class="page-content">
+            <section class="section">
+                <div class="container">
+                    <h2 class="section-title">Наша команда</h2>
+                    <div class="staff-grid">
+                        <!-- Сотрудник 1 -->
+                        <div class="staff-card fade-in">
+                            <div class="staff-photo">
+                                <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Иванова Мария Петровна">
+                            </div>
+                            <div class="staff-info">
+                                <h3 class="staff-name">Иванова Мария Петровна</h3>
+                                <span class="staff-position">Директор приюта</span>
+                                <ul class="staff-details">
+                                    <li><i class="fas fa-birthday-cake"></i> <strong>Возраст:</strong> 42 года</li>
+                                    <li><i class="fas fa-briefcase"></i> <strong>Должность:</strong> Директор</li>
+                                    <li><i class="fas fa-phone"></i> <strong>Телефон:</strong> +7 (495) 123-45-67</li>
+                                    <li><i class="fas fa-envelope"></i> <strong>Email:</strong> director@dobriy-dom.ru</li>
+                                    <li><i class="fas fa-clock"></i> <strong>Стаж работы:</strong> 15 лет</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- Сотрудник 2 -->
+                        <div class="staff-card fade-in">
+                            <div class="staff-photo">
+                                <img src="https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Петров Сергей Александрович">
+                            </div>
+                            <div class="staff-info">
+                                <h3 class="staff-name">Петров Сергей Александрович</h3>
+                                <span class="staff-position">Главный ветеринар</span>
+                                <ul class="staff-details">
+                                    <li><i class="fas fa-birthday-cake"></i> <strong>Возраст:</strong> 38 лет</li>
+                                    <li><i class="fas fa-briefcase"></i> <strong>Должность:</strong> Ветеринарный врач</li>
+                                    <li><i class="fas fa-phone"></i> <strong>Телефон:</strong> +7 (495) 123-45-68</li>
+                                    <li><i class="fas fa-envelope"></i> <strong>Email:</strong> vet@dobriy-dom.ru</li>
+                                    <li><i class="fas fa-clock"></i> <strong>Стаж работы:</strong> 12 лет</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- Сотрудник 3 -->
+                        <div class="staff-card fade-in">
+                            <div class="staff-photo">
+                                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1376&q=80" alt="Сидорова Елена Викторовна">
+                            </div>
+                            <div class="staff-info">
+                                <h3 class="staff-name">Сидорова Елена Викторовна</h3>
+                                <span class="staff-position">Координатор волонтеров</span>
+                                <ul class="staff-details">
+                                    <li><i class="fas fa-birthday-cake"></i> <strong>Возраст:</strong> 34 года</li>
+                                    <li><i class="fas fa-briefcase"></i> <strong>Должность:</strong> Координатор</li>
+                                    <li><i class="fas fa-phone"></i> <strong>Телефон:</strong> +7 (495) 123-45-69</li>
+                                    <li><i class="fas fa-envelope"></i> <strong>Email:</strong> volunteer@dobriy-dom.ru</li>
+                                    <li><i class="fas fa-clock"></i> <strong>Стаж работы:</strong> 8 лет</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-columns">
+                <!-- Контакты -->
+                <div class="footer-column">
+                    <h3><i class="fas fa-address-book"></i> Контакты</h3>
+                    <ul class="footer-contact-list">
+                        <li><i class="fas fa-map-marker-alt"></i> Москва, ул. Добрая, д. 15</li>
+                        <li><i class="fas fa-phone"></i> +7 (495) 123-45-67</li>
+                        <li><i class="fas fa-envelope"></i> info@dobriy-dom.ru</li>
+                        <li><i class="fas fa-clock"></i> Ежедневно с 9:00 до 20:00</li>
+                        <li><i class="fab fa-vk"></i> vk.com/dobriy_dom</li>
+                        <li><i class="fab fa-telegram"></i> t.me/dobriy_dom</li>
+                    </ul>
+                </div>
+                
+                <!-- Местоположение -->
+                <div class="footer-column">
+                    <h3><i class="fas fa-map-marked-alt"></i> Местоположение</h3>
+                    <div class="map-container">
+                        <div class="map-placeholder">
+                            <i class="fas fa-map"></i>
+                            <p>Москва, ул. Добрая, д. 15</p>
+                            <p>Ближайшее метро: "Добрынинская"</p>
+                        </div>
+                    </div>
+                    <p style="margin-top: 15px;">Мы находимся в центре города, рядом с парком. К нам легко добраться на общественном транспорте.</p>
+                </div>
+                
+                <!-- Директор приюта -->
+                <div class="footer-column">
+                    <h3><i class="fas fa-user-tie"></i> Директор приюта</h3>
+                    <div class="director-info">
+                        <div class="director-photo">
+                            <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Иванова Мария Петровна">
+                        </div>
+                        <div class="director-details">
+                            <h4>Иванова Мария Петровна</h4>
+                            <p>Директор приюта "Добрый дом"</p>
+                            <p>Работает с 2008 года</p>
+                        </div>
+                    </div>
+                    <p>Мария Петровна посвятила свою жизнь помощи бездомным животным. Под ее руководством приют стал домом для сотен собак, кошек и других животных.</p>
+                </div>
+                
+                <!-- Акции -->
+                <div class="footer-column">
+                    <h3><i class="fas fa-percentage"></i> Акции</h3>
+                    <div class="promotion">
+                        <h4>"Друг за полцены"</h4>
+                        <p>При взятии взрослого животного из приюта, второе животное - со скидкой 50% на все сопутствующие услуги.</p>
+                    </div>
+                    <div class="promotion">
+                        <h4>"Помоги - получи подарок"</h4>
+                        <p>При пожертвовании от 5000 рублей - фирменная футболка приюта в подарок.</p>
+                    </div>
+                    <div class="promotion">
+                        <h4>"Волонтерский день"</h4>
+                        <p>Каждую субботу - день открытых дверей для волонтеров. Приходите и помогайте нашим животным!</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Приют для животных "Добрый дом". Все права защищены.</p>
+                <p>Сайт создан с любовью к животным.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
